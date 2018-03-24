@@ -1,0 +1,121 @@
+
+body{
+    background: #0d141e ;
+}
+
+nav{
+    float: left;
+}
+
+#fixed .custom{
+    width: 200px;
+    margin-top: 250px;
+    position: relative;
+    left: 25px;
+    list-style: none;
+}
+
+
+
+#fixed .custom li a {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background-image: url(bullet_default.png);
+    background-repeat: no-repeat;
+    background-position: 0 -0.2em;
+    background-size: 20px 20px;
+    opacity: 0.4;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+#fixed .custom li a span{
+    display: none;
+    padding-left: 20px;
+    margin: 0px;
+}
+
+#fixed .custom li a:hover span{
+    display: block;
+
+    width: 400px;
+    color: white;
+}
+
+#fixed .custom li.twitter{
+    border-top: 2px solid rgba(255,255,255,0.1);
+    width: 20px;
+    padding-top: 10px;
+
+
+}
+
+#fixed .custom li.twitter a{
+    background-image: url(twitter.png);
+
+}
+
+#fixed .custom li.linkedin a{
+    background-image: url(linkedin.png);
+
+}
+
+/* Header Photo */
+
+.me{
+    width: 600px;
+    height: 800px;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 300px;
+}
+
+
+
+/* MEDIA QUERIES */
+
+/* for devices upto 320px */
+@media screen and (max-width:320px){
+    .me{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    nav{
+        display: none;
+    }
+
+    h1{
+        padding: 0px;
+        margin: 0px;
+        font-size: 25px;
+    }
+}
+/* for devices between 321px and 375px */
+@media screen and (min-width:321px) and (max-width:376px) {
+
+
+}
+
+/* for devices between 377px and 426px */
+@media screen and (min-width:377px) and (max-width:426px) {
+
+}
+
+/* for devices between 427px and 769px TABLETS*/
+@media screen and (min-width:427px) and (max-width:769px) {
+
+
+}
+
+/* for devices between 770px and 1025px Laptops */
+@media screen and (min-width:770px) and (max-width:1025px) {
+
+}
