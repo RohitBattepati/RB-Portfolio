@@ -39,7 +39,6 @@ nav{
 
 #fixed .custom li a:hover span{
     display: block;
-
     width: 400px;
     color: white;
 }
@@ -86,6 +85,12 @@ h1 {
     .me{
         width: 100vw;
         height: 100vh;
+        position: relative;
+        -webkit-filter: blur(1px);
+        -moz-filter: blur(1px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+        filter: blur(1px);
     }
 
     nav{
@@ -94,28 +99,139 @@ h1 {
 
     h1{
         padding: 0px;
-        margin: 0px;
-        font-size: 25px;
+        top: 50%;
+        color: black;
+        font-size: 60px;
+        position: absolute;
     }
 }
 /* for devices between 321px and 375px */
 @media screen and (min-width:321px) and (max-width:376px) {
+    .me{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        -webkit-filter: blur(1px);
+        -moz-filter: blur(1px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+        filter: blur(1px);
+    }
 
+    nav{
+        display: none;
+    }
+
+    h1{
+        padding: 0px;
+        top: 50%;
+        color: black;
+        font-size: 60px;
+        position: absolute;
+    }
 
 }
 
 /* for devices between 377px and 426px */
 @media screen and (min-width:377px) and (max-width:426px) {
+    .me{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        -webkit-filter: blur(1px);
+        -moz-filter: blur(1px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+        filter: blur(0.5px);
+    }
+
+    nav{
+        display: none;
+    }
+
+    h1{
+        padding: 0px;
+        top: 50%;
+        color: black;
+        font-size: 75px;
+        position: absolute;
+    }
 
 }
 
 /* for devices between 427px and 769px TABLETS*/
 @media screen and (min-width:427px) and (max-width:769px) {
+    .me{
+        width: 350px;
+        height: 100vh;
+        position: relative;
 
+    }
+
+    #fixed .custom{
+        width: 200px;
+        margin-top: 250px;
+        position: relative;
+        left: 5px;
+        list-style: none;
+    }
+
+    #fixed .custom li a span{
+        padding-left: 20px;
+        margin: 0px;
+        color: white;
+    }
+
+
+    h1{
+        padding: 0px;
+        top: 40%;
+        color: honeydew;
+        font-size: 50px;
+        position: absolute;
+        width: 27px;
+        left: 18%;
+    }
 
 }
 
 /* for devices between 770px and 1025px Laptops */
 @media screen and (min-width:770px) and (max-width:1025px) {
+    .me{
+        width: 450px;
+        height: 100vh;
+        position: relative;
+
+    }
+
+    #fixed .custom{
+        width: 200px;
+        margin-top: 250px;
+        position: relative;
+        left: 5px;
+        list-style: none;
+    }
+
+    #fixed .custom li a span{
+        padding-left: 20px;
+        margin: 0px;
+        color: white;
+    }
+
+
+    h1{
+        padding: 0px;
+        top: 40%;
+        color: honeydew;
+        font-size: 70px;
+        position: absolute;
+        width: 27px;
+        left: 15%;
+    }
+
+}
+
+/* for devices between 1026px ans 1441px */
+@media screen and (min-width: 1026px) and  {
 
 }
