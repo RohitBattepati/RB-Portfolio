@@ -1,0 +1,44 @@
+body{
+    background: #0d141e ;
+}
+
+/* nav bar styling */
+
+#fixed ul{
+    list-style: none;
+    margin-top: 50%;
+}
+
+.sidebar{
+    margin: 0px;
+    padding: 0px;
+}
+
+#fixed ul li{
+    padding: 5px;
+}
+
+
+#fixed ul li a{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    background-image:  url(default_nav.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+#fixed ul li a span{
+    line-height: 1;
+    padding-left: 30px;
+    color: 	#F8FDFF;
+}
+
+#fixed ul li.twitter a{
+    background-image: url("twitter.png");
+}
+
+#fixed ul li.linkedin a{
+    background-image: url("linkedin.png");
+}
