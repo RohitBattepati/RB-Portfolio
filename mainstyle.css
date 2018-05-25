@@ -8,11 +8,13 @@ body{
     list-style: none;
     margin-top: 50%;
     position: relative;
+    width: 5vw;
 }
 
 .sidebar{
     margin: 0px;
     padding: 0px;
+
 }
 
 #fixed li{
@@ -36,11 +38,15 @@ body{
 }
 
 #fixed li.twitter a{
-    background-image: url("twitter.png");
+    background-image: url("twitter1.png");
 }
 
 #fixed li.linkedin a{
-    background-image: url("linkedin.png");
+     background-image: url("linkedin.png");
+ }
+
+#fixed li.github a{
+    background-image: url("github2.jpg");
 }
 
 /* Rohit's Name */
@@ -52,7 +58,7 @@ body{
 
 .fullname{
 
-    font-size: 7rem;
+    font-size: 7vw;
     color: #F8FDFF;
 
 }
@@ -60,6 +66,11 @@ body{
 /* image */
 
 .img-fluid{
-    max-width: 100%;
-    height: auto;
+
+    height: 80vh;
+    width: 30vw;
+    margin-top: 15%;
+    margin-left: 20%;
+    border: 2px solid #F8FDFF;
+
 }
