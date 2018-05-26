@@ -38,7 +38,7 @@ body{
 }
 
 #fixed li.twitter a{
-    background-image: url("twitter1.png");
+    background-image: url("twitter2.png");
 }
 
 #fixed li.linkedin a{
@@ -46,7 +46,7 @@ body{
  }
 
 #fixed li.github a{
-    background-image: url("github2.jpg");
+    background-image: url("github3.png");
 }
 
 /* Rohit's Name */
@@ -72,5 +72,34 @@ body{
     margin-top: 15%;
     margin-left: 20%;
     border: 2px solid #F8FDFF;
+
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+
+    .img-fluid{
+        width: 25vw;
+        margin-left: 30%;
+    }
+
+    .fullname{
+
+        font-size: 8vw;
+        color: #F8FDFF;
+
+    }
+
+    #fixed{
+        list-style: none;
+        margin-top: 50%;
+        position: relative;
+
+    }
+
+
+
 
 }
