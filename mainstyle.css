@@ -4,6 +4,13 @@ body{
 
 /* nav bar styling */
 
+#landing{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
 #fixed{
     list-style: none;
     margin-top: 50%;
@@ -52,14 +59,15 @@ body{
 /* Rohit's Name */
 
 #name{
-    margin-top: 8%;
+    margin-top: 19%;
 }
 
 
 .fullname{
 
-    font-size: 7vw;
+    font-size: 5.8vw;
     color: #F8FDFF;
+    font-family: 'Homemade Apple', cursive;
 
 }
 
@@ -67,12 +75,10 @@ body{
 
 .img-fluid{
 
-    height: 80vh;
-    width: 30vw;
-    margin-top: 15%;
-    margin-left: 20%;
-    border: 2px solid #F8FDFF;
-
+    height: 40vh;
+    width: 14vw;
+    margin-top: 55%;
+    margin-left: 3%;
 }
 
 
