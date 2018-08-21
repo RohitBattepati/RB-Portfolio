@@ -92,8 +92,9 @@ body{
 @media screen and (min-width: 770px) and (max-width: 1024px) {
 
     .img-fluid{
-        width: 25vw;
-        margin-left: 30%;
+        width: 20vw;
+
+        
     }
 
     .fullname{
@@ -114,4 +115,33 @@ body{
 
 
 }
+
+@media screen and (min-width: 424px) and (max-width: 769px) {
+
+    .img-fluid{
+        width: 17vw;
+        
+
+        
+    }
+
+    .fullname{
+
+        font-size: 8.5vw;
+        color: #F8FDFF;
+
+    }
+
+    #fixed{
+        list-style: none;
+        margin-top: 50%;
+    
+
+    }
+
+
+
+
+}
+
 
