@@ -82,7 +82,23 @@ body{
 }
 
 
+#intro{
+    color: #F8FDFF; 
+    
+    
+}
 
+#back-image{
+    background-image:url(intro_back_image.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+
+article{
+    width: 50vw;
+    font-size: 20px;
+    
+}
 
 
 
